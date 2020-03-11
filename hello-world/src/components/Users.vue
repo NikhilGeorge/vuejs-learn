@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <h3>Users:</h3>
-    <table class="table">
+    {{users.status}}
+    {{users}}
+    table class="table">
       <thead>
         <tr>
           <th scope="col">Id</th>
